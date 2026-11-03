@@ -1,0 +1,22 @@
+
+import sys
+_ = int("%s%s" % (sys.version_info[0], sys.version_info[1]))
+        
+            
+if _ == 27:    
+    from .__hybrid__.animTransfer27 import *
+            
+if _ == 37:    
+    from .__hybrid__.animTransfer37 import *
+            
+if _ == 39:    
+    from .__hybrid__.animTransfer39 import *
+            
+if _ == 310:    
+    from .__hybrid__.animTransfer310 import *
+            
+if _ == 311:    
+    from .__hybrid__.animTransfer311 import *
+            
+if _ == 313:    
+    from .__hybrid__.animTransfer313 import *

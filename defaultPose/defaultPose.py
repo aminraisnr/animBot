@@ -1,0 +1,22 @@
+
+import sys
+_ = int("%s%s" % (sys.version_info[0], sys.version_info[1]))
+        
+            
+if _ == 27:    
+    from .__hybrid__.defaultPose27 import *
+            
+if _ == 37:    
+    from .__hybrid__.defaultPose37 import *
+            
+if _ == 39:    
+    from .__hybrid__.defaultPose39 import *
+            
+if _ == 310:    
+    from .__hybrid__.defaultPose310 import *
+            
+if _ == 311:    
+    from .__hybrid__.defaultPose311 import *
+            
+if _ == 313:    
+    from .__hybrid__.defaultPose313 import *
